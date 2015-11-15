@@ -22,6 +22,31 @@ var tazacorte = rsr.path("M332 492c-10,-81 -18,-62 -23,-74 -8,-18 6,-13 -20,-15 
 var breñabaja = rsr.path("M484 452c11,-4 23,-12 33,-17 19,-11 19,-5 39,-6 -3,-10 -1,-13 -2,-20 -3,-14 -9,-4 -5,-23 -11,11 -7,1 -16,17 -11,19 -17,9 -33,31 -7,11 -10,7 -16,18z").attr({class: 'fil1',parent: 'Capa_x0020_1','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'path_o');
 _1107000968144.attr({'id': '_1107000968144','parent': 'Capa_x0020_1','name': '_1107000968144'});
 
+regions.push(breñabaja);
+regions.push(tazacorte);
+regions.push(breñaalta);
+regions.push(puntagorda);
+regions.push(elpaso);
+regions.push(villa_garafia);
+regions.push(villamazo);
+regions.push(tijarafe);
+regions.push(fuencaliente);
+regions.push(santacruz);
+regions.push(barlovento);
+regions.push(sanandres);
+regions.push(llanosaridane);
+regions.push(puntallana);
+
+for (var i = 0; i < regions.length; i++) {
+	regions[i].mouseover(function(e)
+	{
+		this.node.style.opacity = 0.7;
+	});
+	regions[i].mouseout(function(e)
+	{
+		this.node.style.opacity = 1;
+	});
+}
 
 });
 

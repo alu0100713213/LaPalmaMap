@@ -37,6 +37,17 @@ regions.push(sanandres);
 regions.push(llanosaridane);
 regions.push(puntallana);
 
+for (var i = 0; i < regions.length; i++) {
+	regions[i].mouseover(function(e)
+	{
+		this.node.style.opacity = 0.7;
+	});
+	regions[i].mouseout(function(e)
+	{
+		this.node.style.opacity = 1;
+	});
+}
+
 });
 
 
