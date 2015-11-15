@@ -2,30 +2,14 @@
     <head>
         <title>Tenerife Mapa Interactivo</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <script type="text/javascript" src="js/raphael-min.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
 
     </head>
     <body>
 			<div id="titulo">La Palma Mapa Interactivo</div><br>
-				<table style="width: 100%">
-					<tr>
-						<td>		
 							<div id="map"></div>
-						</td>
-						<td valign=top>
-							<div id="informacion">
-								<div id="informacion"></div>
-								<div id="region-name"></div>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>
-						</td>
-					</tr>
-			</table>
     </body>
 </html>
 

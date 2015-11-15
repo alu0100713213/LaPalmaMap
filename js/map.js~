@@ -1,3 +1,4 @@
+$(document).ready(function () {
 
 var rsr = Raphael('map', '800', '800');
 
