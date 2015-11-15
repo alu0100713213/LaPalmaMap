@@ -1,4 +1,3 @@
-$(document).ready(function () {
 
 var rsr = Raphael('map', '800', '800');
 
@@ -44,5 +43,4 @@ _1107000968144.push(
 	path_o 
 );
 
-});
 
