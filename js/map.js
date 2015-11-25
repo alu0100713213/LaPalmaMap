@@ -101,6 +101,16 @@ for (var i = 0; i < regions.length; i++) {
 	{
 		this.node.style.opacity = 1;
 	});
+	regions[i].mousedown(function(e)
+	{
+		this.node.setAttribute('fill', 'blue');
+		if(this.data('region') == 'El Paso')
+			window.open('http://www.elpaso.es/','El Paso', 'width=800,height=800;top = (screen.height-altura)/2')
+		
+		else if(this.data('region') == 'Villamazo')
+			window.open('http://www.villademazo.com/','Arico', 'width=800,height=800;top = (screen.height-altura)/2')
+	});
+
 }
 
 });
