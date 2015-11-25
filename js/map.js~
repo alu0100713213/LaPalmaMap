@@ -7,6 +7,10 @@ var Capa_x0020_1 = rsr.set();
 Capa_x0020_1.attr({'id': 'Capa_x0020_1','name': 'Capa_x0020_1'});
 var _1107000968144 = rsr.set();
 var elpaso = rsr.path("M312 361c3,-3 18,-8 27,-1 8,7 3,7 10,12 5,3 8,2 15,7 -5,16 -6,7 -19,10 2,7 4,11 7,18 4,12 1,8 10,16 12,12 14,106 21,135 68,0 45,9 49,-38 3,-36 -10,-30 1,-46 4,-7 0,4 5,-8 14,-32 22,-64 13,-100 -3,-14 -5,-26 -12,-36 -29,-46 1,-12 0,-70 0,-21 -4,-20 -16,-32 -30,-28 -35,-17 -59,6 -11,11 -24,52 -30,61 -4,8 -17,22 -18,30 -1,13 5,4 1,20l-5 16z").attr({class: 'fil1',parent: 'Capa_x0020_1','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'elpaso');
+
+elpaso.data({'region': 'El Paso', 'poblacion': 'Poblacion: xxxx', 'altitud': 'Altitud: xxx m', 
+'superficie': 'Superficie: xxx km^2', 'codpostal': 'Código Postal: xxxx'});
+
 var villa_garafia = rsr.path("M230 145c10,26 33,45 61,49 20,3 18,20 32,25 14,5 14,-12 41,3 7,-4 17,-15 25,-17 10,-2 11,4 18,-3 4,-5 -1,-5 -1,-27 0,-21 17,-39 20,-61l3 -22c-20,4 -11,2 -24,-4 -22,-10 -53,-2 -67,-33 0,-1 0,-2 -1,-2 -13,7 -4,-1 -16,10 -4,3 -6,7 -14,9 -31,7 -14,0 -33,19 -13,13 -11,0 -23,24 -6,11 -12,22 -21,30z").attr({class: 'fil1',parent: 'Capa_x0020_1','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'villa_garafia');
 var villamazo = rsr.path("M439 494c3,16 -2,38 1,47 2,11 9,10 2,23 -5,11 -1,-5 -6,10 -1,5 -1,13 -1,18 17,3 48,14 57,24 11,-21 4,-32 42,-64 21,-18 6,-15 15,-39 10,-23 1,-36 7,-50 6,-12 14,-27 -12,-28 -19,-1 -82,37 -88,46 -11,14 -1,5 -17,13z").attr({class: 'fil1',parent: 'Capa_x0020_1','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'villamazo');
 var tijarafe = rsr.path("M217 237c4,26 11,5 16,34 2,12 3,8 7,17 4,9 2,11 5,22 3,12 10,26 12,38 1,4 1,9 2,11l16 24c23,-20 15,-20 25,-28 6,-4 11,-1 11,-14 0,-9 -5,-9 0,-23 4,-11 16,-20 20,-34 6,-18 13,-23 17,-38l-73 -12c-10,-4 -7,-11 -25,-4 -15,6 -13,5 -33,7z").attr({class: 'fil1',parent: 'Capa_x0020_1','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'tijarafe');
@@ -38,11 +42,17 @@ regions.push(llanosaridane);
 regions.push(puntallana);
 
 for (var i = 0; i < regions.length; i++) {
-	regions[i].mouseover(function(e)
+	regions[i].mouseover(function(e)   // EVENTO CUANDO SE PASA POR ENCIMA
 	{
+			document.getElementById('region-name').innerHTML = this.data('region');
+			document.getElementById('region-poblacion').innerHTML = this.data('poblacion');
+			document.getElementById('region-superficie').innerHTML = this.data('superficie');
+			document.getElementById('region-altitud').innerHTML = this.data('altitud');
+			document.getElementById('region-codpostal').innerHTML = this.data('codpostal');
+
 		this.node.style.opacity = 0.7;
 	});
-	regions[i].mouseout(function(e)
+	regions[i].mouseout(function(e) // EVENTO CUANDO SE EXPULSA EL RATON
 	{
 		this.node.style.opacity = 1;
 	});
