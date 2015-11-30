@@ -1,8 +1,11 @@
 ## La Palma Mapa Interactivo 
 #### Autor: Juan Ignacio Hita 
 #### Asignatura: Tecnologías y Sistemas Web 
+* * *
 
-## ¿Qué es RaphaelJS?
+![Sin titulo](http://s29.postimg.org/qx6sj4r07/portadagi.jpg)
+
+## 1. ¿Qué es RaphaelJS?
 
 RaphaelJS es una librería de JavaScript que simplifica el desarrollo de graficos vectoriales en la web. Mediante esta librería se pueden manipular formas Canvas, imágenes, realizar cortes, rotaciones de forma simple y fácil. 
 Raphael usa el formato SVG, recomendado por W3School y VML como creador de gráficos. 
@@ -13,20 +16,20 @@ Raphael es soportado en:
 *	Opera 9.5+
 *	Internet Explorer 6.0
 
-## Instalación de RaphaelJS y las herramientas que usaremos
+## 2. Instalación de RaphaelJS y las herramientas que usaremos
 
 Para usar RaphaelJS sólo es necesario descargar el código fuente de la librería y añadirlo a nuestro proyecto. 
 [Link de RaphaelJS](http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js
- "Link de RaphaelJS") inline link.
+ "Link de RaphaelJS")
 
 
-## Creando el Mapa Interactivo
+## 3. Creando el Mapa Interactivo
 
 ###### PASO 1: Preparamos la imagen que usaremos para el mapa interactivo de la isla de La Palma.
 
 Mediante un programa vectorial abriremos la imagen del mapa, es importante que tenga unas medidas fijas ya que a la hora de ponerlo en la web es un objeto SVG.
 [Link Fichero SVG:]( https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRUkdoZGZVSmlwdEE/view?usp=sharing
- "Link Fichero SVG:") inline link.
+ "Link Fichero SVG:")
 
 
 ###### PASO 2: Convertimos SVG al formato de RaphaelJS con ReadySetRaphael
@@ -56,10 +59,10 @@ Este evento llama a las diferentes funciones getElementById para mostrar la info
 •	Mouseout(function(x){ … }
 Este evento se ejecuta cuando sale el ratón de la sección. Para el ejemplo se le modifica la opacidad del fondo, dejándola por defecto.
 
-## Links de Interes
+## 4. Links de Interes
 
-[Página web Personal](http://alu0100713213.github.io "Página web personal") inline link.
-[Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS](https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRXzZyRVhoT3N3VHc/view?usp=sharing "Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS") inline link.
-[Despliegue en IAAS](http:// "Despliegue en IAAS") inline link.
+- [Página web Personal](http://alu0100713213.github.io "Página web personal")
+- [Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS](https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRXzZyRVhoT3N3VHc/view?usp=sharing "Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS")
+- [Despliegue en IAAS](http:// "Despliegue en IAAS")
 
-
+* * *
