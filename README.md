@@ -1,6 +1,6 @@
 ## La Palma Mapa Interactivo 
 #### Autor: Juan Ignacio Hita 
-#### Asignaturar: Tecnologías y Sistemas Web 
+#### Asignatura: Tecnologías y Sistemas Web 
 
 ## ¿Qué es RaphaelJS?
 
@@ -16,15 +16,16 @@ Raphael es soportado en:
 ## Instalación de RaphaelJS y las herramientas que usaremos
 
 Para usar RaphaelJS sólo es necesario descargar el código fuente de la librería y añadirlo a nuestro proyecto. 
-Link de RaphaelJS
-http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js
+[Link de RaphaelJS](http://github.com/DmitryBaranovskiy/raphael/raw/master/raphael-min.js
+ "Link de RaphaelJS") inline link.
+
 
 ## Creando el Mapa Interactivo
 
 ###### PASO 1: Preparamos la imagen que usaremos para el mapa interactivo de la isla de La Palma.
 
 Mediante un programa vectorial abriremos la imagen del mapa, es importante que tenga unas medidas fijas ya que a la hora de ponerlo en la web es un objeto SVG.
-This is [an example]( https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRUkdoZGZVSmlwdEE/view?usp=sharing
+[Link Fichero SVG:]( https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRUkdoZGZVSmlwdEE/view?usp=sharing
  "Link Fichero SVG:") inline link.
 
 
@@ -57,8 +58,8 @@ Este evento se ejecuta cuando sale el ratón de la sección. Para el ejemplo se 
 
 ## Links de Interes
 
-This is [an example](http://alu0100713213.github.io "Página web personal") inline link.
-This is [an example](https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRXzZyRVhoT3N3VHc/view?usp=sharing "Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS") inline link.
-This is [an example](http:// "Despliegue en IAAS") inline link.
+[Página web Personal](http://alu0100713213.github.io "Página web personal") inline link.
+[Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS](https://drive.google.com/a/ull.edu.es/file/d/0B18dUNHzQRIRXzZyRVhoT3N3VHc/view?usp=sharing "Tutorial en PDF - Creando un mapa Interactivo con RaphaelJS") inline link.
+[Despliegue en IAAS](http:// "Despliegue en IAAS") inline link.
 
 
