@@ -1,9 +1,7 @@
-## La Palma Mapa Interactivo 
+![Sin titulo](http://s29.postimg.org/qx6sj4r07/portadagi.jpg)
+* * *
 #### Autor: Juan Ignacio Hita 
 #### Asignatura: Tecnologías y Sistemas Web 
-* * *
-
-![Sin titulo](http://s29.postimg.org/qx6sj4r07/portadagi.jpg)
 
 ## 1. ¿Qué es RaphaelJS?
 
